@@ -8,16 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Who do you think you are? I am.
+          We make pictures, products, stories, shorts, and much more. For a portfolio of work, please email katie@hatchandfriends.com.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
