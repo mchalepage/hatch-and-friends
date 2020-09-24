@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={whiteLogo} className="App-logo" alt="logo" />
-        <p>
+        <p className='description-text'>
           We make pictures, products, stories, shorts, and much more. For a portfolio of work, please email <a className='email-link' href = "mailto: katie@hatchandfriends.com">katie@hatchandfriends.com</a>.
         </p>
       </header>
