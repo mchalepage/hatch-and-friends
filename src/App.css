@@ -1,28 +1,126 @@
-.App {
-  text-align: center;
-  height: 100vh;
-  width: 100vw;
-  background-color: #201e21;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/* desktop */
+@media screen and (min-width: 1025px) {
+  .App {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #201e21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    margin-bottom: 5vh;
+  }
+  
+  .description-text {
+    font-size: calc(5px + 2vmin);
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    width: 80%;
+  }
+  
+  .email-link {
+    color: white;
+  }
 }
 
-.App-logo {
-  height: 40vmin;
-  margin-bottom: 5vh;
+/* iPhone X */
+@media screen and (min-width: 375px) {
+  .App {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #201e21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    margin-bottom: 5vh;
+  }
+  
+  .description-text {
+    font-size: calc(5px + 2vmin);
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    width: 80%;
+  }
+  
+  .email-link {
+    color: white;
+  }
+}
+/* Mobile (small) */
+@media screen and (min-width: 0px) {
+  .App {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #201e21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    margin-bottom: 5vh;
+  }
+  
+  .description-text {
+    font-size: calc(5px + 2vmin);
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    width: 80%;
+  }
+  
+  .email-link {
+    color: white;
+  }
 }
 
-.description-text {
-  font-size: calc(5px + 2vmin);
-  font-family: adobe-caslon-pro, serif;
-  font-weight: 600;
-  font-style: normal;
-  color: white;
-  width: 80%;
-}
-
-.email-link {
-  color: white;
+/* tablet */
+@media screen and (min-width: 768px) {
+  .App {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #201e21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    margin-bottom: 5vh;
+  }
+  
+  .description-text {
+    font-size: calc(5px + 2vmin);
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    width: 80%;
+  }
+  
+  .email-link {
+    color: white;
+  }
 }
