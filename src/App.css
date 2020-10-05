@@ -1,28 +1,57 @@
-/* desktop */
-@media screen and (min-width: 1025px) {
+/* mobile small */
   .App {
-    text-align: center;
     height: 100vh;
     width: 100vw;
     background-color: #201e21;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
+
   
   .App-logo {
-    height: 40vmin;
-    margin-bottom: 5vh;
+    width: 70vw;
   }
   
   .description-text {
-    font-size: calc(5px + 2vmin);
+    font-size: 8px;
     font-family: adobe-caslon-pro, serif;
     font-weight: 600;
     font-style: normal;
     color: white;
-    width: 80%;
+    width: 70vw;
+    text-align: center;
+  }
+  
+  .email-link {
+    color: white;
+  }
+/* mobile medium */
+@media (min-width: 321px){
+  .App {
+    height: 100vh;
+    width: 100vw;
+    background-color: #201e21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  
+  .App-logo {
+    width: 70vw;
+  }
+  
+  .description-text {
+    font-size: 10px;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    width: 70vw;
+    text-align: center;
   }
   
   .email-link {
@@ -30,62 +59,31 @@
   }
 }
 
-/* iPhone X */
-@media screen and (min-width: 375px) {
+/* mobile large */
+@media (min-width: 376px){
   .App {
-    text-align: center;
     height: 100vh;
     width: 100vw;
     background-color: #201e21;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
+
   
   .App-logo {
-    height: 40vmin;
-    margin-bottom: 5vh;
+    width: 70vw;
   }
   
   .description-text {
-    font-size: calc(5px + 2vmin);
+    font-size: 11px;
     font-family: adobe-caslon-pro, serif;
     font-weight: 600;
     font-style: normal;
     color: white;
-    width: 80%;
-  }
-  
-  .email-link {
-    color: white;
-  }
-}
-/* Mobile (small) */
-@media screen and (min-width: 0px) {
-  .App {
+    width: 70vw;
     text-align: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: #201e21;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .App-logo {
-    height: 40vmin;
-    margin-bottom: 5vh;
-  }
-  
-  .description-text {
-    font-size: calc(5px + 2vmin);
-    font-family: adobe-caslon-pro, serif;
-    font-weight: 600;
-    font-style: normal;
-    color: white;
-    width: 80%;
   }
   
   .email-link {
@@ -93,31 +91,127 @@
   }
 }
 
-/* tablet */
-@media screen and (min-width: 768px) {
+/* tablet small */
+@media (min-width: 426px) {
   .App {
-    text-align: center;
     height: 100vh;
     width: 100vw;
     background-color: #201e21;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   
+  
   .App-logo {
-    height: 40vmin;
-    margin-bottom: 5vh;
+    width: 60vw;
   }
   
   .description-text {
-    font-size: calc(5px + 2vmin);
+    font-size: 14px;
     font-family: adobe-caslon-pro, serif;
     font-weight: 600;
     font-style: normal;
     color: white;
-    width: 80%;
+    width: 60vw;
+    text-align: center;
+  }
+  
+  .email-link {
+    color: white;
+  }
+}
+
+/* tablet large and small laptop */
+@media (min-width: 769px) {
+  .App {
+    height: 100vh;
+    width: 100vw;
+    background-color: #201e21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  
+  .App-logo {
+    width: 55vw;
+  }
+  
+  .description-text {
+    font-size: 20px;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    width: 55vw;
+    text-align: center;
+  }
+  
+  .email-link {
+    color: white;
+  }
+}
+
+/* large laptop */
+@media (min-width: 1025px) {
+  .App {
+    height: 100vh;
+    width: 100vw;
+    background-color: #201e21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  
+  .App-logo {
+    width: 60vw;
+  }
+  
+  .description-text {
+    font-size: 16.5px;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    width: 60vw;
+    text-align: center;
+  }
+  
+  .email-link {
+    color: white;
+  }
+}
+
+/* 4k display */
+@media (min-width: 1441px) {
+  .App {
+    height: 100vh;
+    width: 100vw;
+    background-color: #201e21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  
+  .App-logo {
+    width: 60vw;
+  }
+  
+  .description-text {
+    font-size: 30px;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    width: 60vw;
+    text-align: center;
   }
   
   .email-link {
